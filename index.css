@@ -1,0 +1,220 @@
+/* Lato might be a good font option to try */
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4,
+.bgimg-5 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bgimg-1 {
+    background-image: url(img/bg-1-resize.jpg);
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    background-image: url(img/bg-2-resize.jpg);
+    min-height: 100%;
+}
+
+.bgimg-3 {
+    background-image: url(img/bg-3-resize.jpg);
+    min-height: 100%;
+}
+
+.bgimg-4 {
+    background-image: url(img/bg-4-resize.jpg);
+    min-height: 100%;
+}
+
+.bgimg-5 {
+    background-image: url(img/bg-5-resize.jpg);
+    min-height: 100%;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #000;
+    color: #fff;
+    padding: 1em;
+    font-size: 200%;
+}
+
+.caption span#border-big {
+    background-color: #000;
+    color: #fff;
+    padding: 1em;
+    font-size: 300%;
+}
+
+/* nav, footer {
+    background-color: rgba(56, 101, 47, 0.2);
+} */
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0;
+}
+
+p span {
+    color: #317312;
+}
+
+#image-me {
+    box-shadow: 8px 8px 10px #1a72ad;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-4 {
+        background-attachment: scroll;
+    }
+}
+
+#about-1,
+#recent-2,
+#art-3 {
+    background-image: linear-gradient(rgba(206, 236, 255, 0.6), #ceecff);
+    padding: 50px 50px;
+    text-align: justify;
+}
+
+/* #recent-2 {
+    background-image: linear-gradient(rgba(76, 155, 207, 0.6), #4c9bcf);
+    padding: 50px 50px;
+    text-align: justify;
+}
+
+#art-3 {
+    background-image: linear-gradient(rgba(64, 157, 219, 0.6), #3a91cc);
+    padding: 50px 50px;
+    text-align: justify;
+} */
+
+#top-button {
+    display: none;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    z-index: 99;
+    font-size: 18px;
+    border: 1px solid #043263;
+    outline: none;
+    background-color: #043263;
+    color: #F8F8F8;
+    cursor: pointer;
+    padding: 0.3em 0.6em;
+    border-radius: 50%;
+}
+
+#top-button:hover {
+    background-color: #F8F8F8;
+    color: #043263;
+}
+
+.hover-container {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 1s ease;
+    backface-visibility: hidden;
+}
+
+.center {
+    transition: 1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hover-container:hover .image {
+    opacity: 0.6;
+}
+
+.hover-container:hover .center {
+    opacity: 1;
+}
+
+.text {
+    color: #F8F8F8;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+}
+
+.text hr {
+    border: 3px solid #F8F8F8;
+}
+
+/* 404 page bg */
+#error-img {
+    background-image: url(img/404-bg-resize.jpg);
+    min-height: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.error {
+    padding-top: 1.25em;
+}
+
+.wave span {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    animation: wave 3s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes wave {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Helpful meta tags-->
+    <meta name="author" content="Nathan Cheng">
+    <meta name="description" content="This is Nathan's personal website.">
+    <meta name="keywords" content="Nathan Cheng, personal, website, blog, web development, Mesa College, SDCCD">
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--font is open sans (sans-serif) semi-bold 600-->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet"> -->
+    <!-- font is montserrat regular 500 -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!--Fontawesome Icons-->
+    <script src="https://kit.fontawesome.com/f8fd2d4efb.js" crossorigin="anonymous"></script>
+
+    <!--My CSS Styles-->
+    <link rel="stylesheet" href="index.css">
+
+    <title>Nathan's Website</title>
+</head>
+
+<!--Begin Content-->
+
+<body>
+
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light px-2">
+        <div class="container-fluid justify-content-center">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/wave-logo.png" width="30" height="30" class="d-inline-block align-top"
+                    alt="circular wave logo"><i>NXTHXN</i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            WEBD Class Work
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="http://nathancheng.000webhostapp.com/webd152/"
+                                    target="_blank">152: Intro HTML/CSS</a></li>
+                            <li><a class="dropdown-item" href="http://nathancheng.000webhostapp.com/webd164/"
+                                    target="_blank">164: Intro JS</a></li>
+                            <li><a class="dropdown-item" href="http://nathancheng.000webhostapp.com/webd168/"
+                                    target="_blank">168: Adv HTML/CSS</a></li>
+                            <li><a class="dropdown-item" href="http://nathancheng.000webhostapp.com/webd166/"
+                                    target="_blank">166: Intro PHP</a></li>
+                            <li><a class="dropdown-item" href="http://nathancheng.000webhostapp.com/webd167/"
+                                    target="_blank">167: Web Databases</a></li>
+                            <li><a class="dropdown-item" href="http://nathancheng.000webhostapp.com/webd127/"
+                                    target="_blank">127: User-Centered Content (UX/UI)</a>
+                            </li>
+                            <li><a class="dropdown-item bg-secondary">171: Adv JS</a></li>
+                            <li><a class="dropdown-item" href="http://nathancheng.000webhostapp.com/webd173/"
+                                    target="_blank">173: E-Commerce</a></li>
+                            <li><a class="dropdown-item bg-secondary">169: CMS</a></li>
+                            <li><a class="dropdown-item bg-secondary">191: Prof. Practices</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="multimedia.html">MULT Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page"
+                            href="https://docs.google.com/document/d/11BDcCbbv46cmOMP_Wwp2RtKZ77MTK8-_sRf3fI3O2Ao/edit?usp=sharing"
+                            target="_blank">Résumé</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://nathancheng.000webhostapp.com/webd168/bootstrapintro/mypage/allaboutmebootstrap.html"
+                            target="_blank">About (Old)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Parallax-->
+    <!--Big Header Image-->
+
+    <div class="bgimg-1">
+        <div class="caption">
+            <span id="border-big">NXTHXN</span>
+        </div>
+    </div>
+
+    <!--About-->
+
+    <div id="about-1">
+        <div class="row">
+            <div class="col-lg-8">
+                <h3>NXTHXN</h3>
+                <!-- maybe try an overlay that says "about" and then the regular text "NXTHXN" -->
+                <p class="fs-5">
+                    I'm Nathan. I'm a junior web developer from San Diego.
+                    This is my personal, hand-coded, and responsive website where I upload most of my web development
+                    and multimedia projects.
+                    Feel free to peruse some of my latest works below.
+                    For any questions, please email me at <strong><span>nchengsd@gmail.com</span></strong>.
+                    Code for this website: <a href="" target="_blank"></a>
+                </p>
+                <hr>
+                <h3>XBOUT ME</h3>
+                <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dice" width="32"
+                        height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <rect x="4" y="4" width="16" height="16" rx="2" />
+                        <circle cx="8.5" cy="8.5" r=".5" fill="currentColor" />
+                        <circle cx="15.5" cy="8.5" r=".5" fill="currentColor" />
+                        <circle cx="15.5" cy="15.5" r=".5" fill="currentColor" />
+                        <circle cx="8.5" cy="15.5" r=".5" fill="currentColor" />
+                    </svg> frighteningly good at Boggle (and other word games)</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-fish" width="32"
+                        height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M16.69 7.44a6.973 6.973 0 0 0 -1.69 4.56c0 1.747 .64 3.345 1.699 4.571" />
+                        <path d="M2 9.504c7.715 8.647 14.75 10.265 20 2.498c-5.25 -7.761 -12.285 -6.142 -20 2.504" />
+                        <path d="M18 11v.01" />
+                        <path d="M11.5 10.5c-.667 1 -.667 2 0 3" />
+                    </svg> allergic to peanuts, nuts and seafood</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-directions" width="32"
+                        height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M9 5h10l2 2l-2 2h-10a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1" />
+                        <path d="M13 13h-7l-2 2l2 2h7a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1" />
+                        <line x1="12" y1="22" x2="12" y2="17" />
+                        <line x1="12" y1="13" x2="12" y2="9" />
+                        <line x1="12" y1="5" x2="12" y2="3" />
+                    </svg> have never traveled outside the USA</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trees" width="32"
+                        height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M16 5l3 3l-2 1l4 4l-3 1l4 4h-9" />
+                        <line x1="15" y1="21" x2="15" y2="18" />
+                        <path d="M8 13l-2 -2" />
+                        <path d="M8 12l2 -2" />
+                        <path d="M8 21v-13" />
+                        <path
+                            d="M5.824 15.995a3 3 0 0 1 -2.743 -3.69a2.998 2.998 0 0 1 .304 -4.833a3 3 0 0 1 4.615 -3.707a3 3 0 0 1 4.614 3.707a2.997 2.997 0 0 1 .305 4.833a3 3 0 0 1 -2.919 3.695h-4z" />
+                    </svg> outdoorsy and adventurous</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-affiliate" width="32"
+                        height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M5.931 6.936l1.275 4.249m5.607 5.609l4.251 1.275" />
+                        <path d="M11.683 12.317l5.759 -5.759" />
+                        <circle cx="5.5" cy="5.5" r="1.5" />
+                        <circle cx="18.5" cy="5.5" r="1.5" />
+                        <circle cx="18.5" cy="18.5" r="1.5" />
+                        <circle cx="8.5" cy="15.5" r="4.5" />
+                    </svg> favorite word is "organic" (think free-flowing and spontaneous)
+                    <hr>
+                    <h3>CONTXCT</h3>
+                    <p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <i class="fas fa-envelope"></i> nchengsd@gmail.com
+                            </div>
+                            <div class="col-md-4">
+                                <i class="fas fa-phone-alt"></i> 858-603-8307
+                            </div>
+                            <div class="col-md-4">
+                                <i class="fas fa-link"></i> github.com/nathansdca, codepen.io/nathansdca
+                            </div>
+                        </div>
+                    </p>
+            </div>
+            <div class="col-lg-4">
+                <img src="img/Nathan-huntington-beach-wedding.jpg" class="img-fluid"
+                    alt="Nathan in Huntington Beach at a wedding" id="image-me">
+            </div>
+        </div>
+    </div>
+
+    <!--Recent WEBD Works-->
+
+    <div class="bgimg-2">
+        <div class="caption">
+            <span class="border">RECENT WORK</span>
+        </div>
+    </div>
+
+    <div id="recent-2">
+        <div>
+            <h3>
+                Web Development Projects
+            </h3>
+            <p class="fs-5 mb-4">
+                These are a few of my portfolio pieces that I've completed, with most of them being final projects
+                for a class. Each one focuses on a specific aspect of web development, including e-commerce, ADA
+                compliance, and responsive design. They are listed in order of creation (most recent first).
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card mb-4">
+                    <a href="http://nathancheng.000webhostapp.com/webd173/final-project/" target="_blank">
+                        <img src="img/nancy-watercolor-reduce.png" class="card-img-top" alt="Nancy Cheng Watercolors">
+                    </a>
+                    <div class="card-body">
+                        <a href="http://nathancheng.000webhostapp.com/webd173/final-project/" target="_blank">
+                            <h5 class="card-title">Nancy Cheng Watercolors</h5>
+                        </a>
+                        <p class="card-text">E-Commerce business website with jQuery and PayPal using Bootstrap</p>
+                        <p class="card-text"><small class="text-muted">WEBD 173 // DEC 2021</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card mb-4">
+                    <a href="http://nathancheng.000webhostapp.com/webd127/home.html" target="_blank">
+                        <img src="img/dream-destinations-reduce.png" class="card-img-top" alt="Dream Destinations">
+                    </a>
+                    <div class="card-body">
+                        <a href="http://nathancheng.000webhostapp.com/webd127/home.html" target="_blank">
+                            <h5 class="card-title">Dream Destinations</h5>
+                        </a>
+                        <p class="card-text">Itinerary website for global travel destinations using Bootstrap</p>
+                        <p class="card-text"><small class="text-muted">WEBD 127 // NOV 2021</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card mb-4">
+                    <a href="http://nathancheng.000webhostapp.com/webd168/final/" target="_blank">
+                        <img src="img/travel-hawaii-reduce.png" class="card-img-top" alt="Travel Hawaii">
+                    </a>
+                    <div class="card-body">
+                        <a href="http://nathancheng.000webhostapp.com/webd168/final/" target="_blank">
+                            <h5 class="card-title">Travel Hawaii</h5>
+                        </a>
+                        <p class="card-text">Travel website using Bootstrap and CSS animations</p>
+                        <p class="card-text"><small class="text-muted">WEBD 168 // DEC 2020</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card">
+                    <a href="http://nathancheng.000webhostapp.com/webd152/final/finalpacific/" target="_blank">
+                        <img src="img/pacific-trails-reduce.png" class="card-img-top" alt="Pacific Trails Resort">
+                    </a>
+                    <div class="card-body">
+                        <a href="http://nathancheng.000webhostapp.com/webd152/final/finalpacific/" target="_blank">
+                            <h5 class="card-title">Pacific Trails Resort</h5>
+                        </a>
+                        <p class="card-text">Culmination website after learning HTML/CSS basics</p>
+                        <p class="card-text"><small class="text-muted">WEBD 152 // AUG 2020</small></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--MULT Works-->
+
+    <div class="bgimg-3">
+        <div class="caption">
+            <span class="border">DIGITAL ART</span>
+        </div>
+    </div>
+
+    <div id="art-3">
+        <div>
+            <h3>
+                Photoshop Manipulation
+            </h3>
+            <p class="fs-5">
+                In my multimedia class, I learned how to use most of the main Adobe Creative Cloud applications,
+                including Photoshop, Illustrator, and InDesign. Below are some of my favorite projects that I created
+                outside of class just for fun.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-md my-4">
+                <div class="hover-container">
+                    <img src="img/girl-moon.jpg" alt="girl on stairs looking at moon" class="image img-fluid">
+                    <div class="center">
+                        <div class="text">
+                            <hr>Stairway to Heaven
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md my-4">
+                <div class="hover-container">
+                    <img src="img/final-done.jpg" alt="man's head overlayed on palm trees" class="image img-fluid">
+                    <div class="center">
+                        <div class="text">
+                            <hr>California Double
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md my-4">
+                <div class="hover-container">
+                    <img src="img/beach-book.jpg" alt="beach pop-up book with sunset" class="image img-fluid">
+                    <div class="center">
+                        <div class="text">
+                            <hr>Come Alive
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bgimg-4">
+        <div class="caption">
+            <span class="border">THANKS FOR LOOKING!</span>
+        </div>
+        
+    </div>
+
+    <!--Footer-->
+
+    <footer class="page-footer pt-4">
+        <div class="footer-copyright text-center py-3">
+            © Copyright 2020-2022 <i class="fas fa-globe"></i> Created by
+            Nathan Cheng <i class="fas fa-globe"></i> github.com/nathansdca
+            <i class="fas fa-globe"></i> codepen.io/nathansdca
+        </div>
+    </footer>
+
+    <!--Scroll to Top-->
+
+    <button onclick="topFunction()" id="top-button"><i class="fas fa-arrow-up"></i></button>
+
+
+    <!--JS for scroll to top button-->
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("top-button");
+
+        // When the user scrolls down 120px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
+    <!--Optional Javascript-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
